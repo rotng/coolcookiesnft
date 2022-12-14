@@ -37,10 +37,8 @@ export const START_ARROW_ID = '118d5dc5-ebc0-4a47-8323-2edb6ad1914e';
 export const START_ARROW_TITLE = 'Quickstart'
 export const START_ARROW_ROUTNAME = 'quickstart'
 
-
 export const START_ARROW_1_ID = 'a871cd40-98f1-4912-994d-5a835b34ae32'; // SearchGhost
 export const START_ARROW_2_ID = 'e1501397-8637-47b6-9ef2-e1b4d1b926fd'; // CoolCookiesNFT
-
 
 export const uuidRegexExp = /^[0-9A-F]{8}-[0-9A-F]{4}-4[0-9A-F]{3}-[89AB][0-9A-F]{3}-[0-9A-F]{12}$/i;
 
