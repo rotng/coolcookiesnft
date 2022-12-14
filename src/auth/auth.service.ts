@@ -180,10 +180,10 @@ export class AuthService {
     await this.usersService.setEmailVerificationCode(user.id, code);
     console.log(code)
     return this.emailService.sendMail({
-      from: 'Mindscape.pub <verify@mindscape.pub>',
+      from: 'Cool Cookies NFT <verify@mindscape.pub>',
       to: userEmail,
       subject: `Email verification code: ${code}`,
-      text: `Welcome to Mindscape.pub! Use this code to verify your email: ${code}`
+      text: `Welcome to the Cool Cookies NFT mindscape! Use this code to verify your email: ${code}`
     });
   }
 
