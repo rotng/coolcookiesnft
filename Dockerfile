@@ -1,6 +1,6 @@
 FROM node:16.13.0
 
-WORKDIR /Users/peterwei/workspace/mindscape
+WORKDIR /Users/peterwei/workspace/coolcookiesnft
 
 COPY package.json ./
 
